@@ -23,7 +23,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:089609214064"));
+                intent.setData(Uri.parse("tel:089691671660"));
                 startActivity(intent);
             }
         });
@@ -32,7 +32,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.instagram.com/invites/contact/?i=kyaf18it8yvg&utm_content=62c0n4n"));
+                        Uri.parse("https://instagram.com/rizalaffandy21?igshid=h5fkn8i21nrn"));
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://goo.gl/maps/1cQ6gppsMdrMyQN37"));
+                        Uri.parse("https://maps.app.goo.gl/CC7R8N3Qbc5uSPDv5"));
                 startActivity(intent);
             }
         });

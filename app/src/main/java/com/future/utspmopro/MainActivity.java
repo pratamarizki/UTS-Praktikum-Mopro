@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
     void addData(){
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("Yogga Aji Pratama", "1167050168", "089609214064"));
-        mahasiswaArrayList.add(new Mahasiswa("Hikigaya", "1160256545", "085645213654"));
-        mahasiswaArrayList.add(new Mahasiswa("Kaneki", "1125862145", "08745621369"));
-        mahasiswaArrayList.add(new Mahasiswa("Luffy", "11425698547", "08236547896"));
+        mahasiswaArrayList.add(new Mahasiswa("Rizal Affandy", "1167050142", "089691671660"));
+        mahasiswaArrayList.add(new Mahasiswa("Jokowi", "1177050134", "085725220372"));
+        mahasiswaArrayList.add(new Mahasiswa("Prabowo", "1177050135", "085956650372"));
+        mahasiswaArrayList.add(new Mahasiswa("Sandiaga Uno", "1177050136", "087893115867"));
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
